@@ -1,0 +1,29 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><header>
+		<div class="header">
+			<div class="head_logo">
+				<a href="../index.html"><img src="../img/logo.png" alt="就実大学オンラインオープンキャンパス2020" width="340"></a>
+			</div>
+			
+			<ul class="nav">
+				<li><a href="../index.html">ホーム</a></li>
+				<li><a href="https://www.weboc-shujitsu.info/#comp-kaxwni191" target="_blank">入試概要</a></li>
+				<li><a href="../index.html#consult">オンライン進学相談会</a></li>
+				<li><a href="https://www.shujitsu.ac.jp/admissions_site/document.html" target="_blank">資料請求</a></li>
+			</ul>
+		</div>
+
+		<button type="button" class="drawer-toggle drawer-hamburger">
+			<span class="sr-only">toggle navigation</span>
+			<span class="drawer-hamburger-icon"></span>
+			<span class="drawer_txt">メニュー</span>
+		</button>
+
+		<div class="drawer-nav" role="navigation">
+			<ul class="drawer-menu serif">
+				<li><a href="../index.html" class="drawer-menu-item">ホーム</a></li>
+				<li><a href="https://www.weboc-shujitsu.info/#comp-kaxwni191" target="_blank" class="drawer-menu-item">入試概要</a></li>
+				<li><a href="../index.html#consult" class="drawer-menu-item">オンライン進学相談会</a></li>
+				<li><a href="https://www.shujitsu.ac.jp/admissions_site/document.html" target="_blank" class="drawer-menu-item">資料請求</a></li>
+			</ul>
+		</div>
+	</header>

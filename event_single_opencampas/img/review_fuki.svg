@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="137.727" height="68.781" viewBox="0 0 137.727 68.781">
+  <g id="グループ_4072" data-name="グループ 4072" transform="translate(-426 -7217.395)">
+    <g id="グループ_4075" data-name="グループ 4075" transform="translate(184 -10.605)">
+      <g id="パス_1254" data-name="パス 1254" transform="translate(318.385 7243.164)" fill="#fee40d">
+        <path d="M 60.28242874145508 47.18208694458008 L 59.17175674438477 47.06955718994141 L 42.8240966796875 45.41327667236328 L 41.87664794921875 45.31728744506836 L 42.49362945556641 44.59188842773438 L 50.66745758056641 34.98166656494141 L 51.07954025268555 34.49716949462891 L 51.45303726196289 35.01198959350586 L 59.62686920166016 46.27848815917969 L 60.28242874145508 47.18208694458008 Z" stroke="none"/>
+        <path d="M 59.2221565246582 46.57210922241211 L 51.0483283996582 35.30560684204102 L 42.8745002746582 44.91582870483398 L 59.2221565246582 46.57210922241211 M 61.34269714355469 47.79206848144531 L 40.87879943847656 45.71874618530273 L 51.11074829101562 33.68873977661133 L 61.34269714355469 47.79206848144531 Z" stroke="none" fill="#fff"/>
+      </g>
+      <g id="長方形_1197" data-name="長方形 1197" transform="translate(243 7229)" fill="#ffe433" stroke="#fff" stroke-width="1">
+        <rect width="131.438" height="66.781" rx="33.39" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="132.438" height="67.781" rx="33.89" fill="none"/>
+      </g>
+    </g>
+    <g id="グループ_4071" data-name="グループ 4071" transform="translate(184 -10.605)">
+      <path id="パス_1254-2" data-name="パス 1254" d="M42.875,44.916l16.348,1.656L51.048,35.306Z" transform="translate(318.385 7243.164)" fill="#fee40d"/>
+      <rect id="長方形_1197-2" data-name="長方形 1197" width="131.438" height="66.781" rx="33.39" transform="translate(243 7229)" fill="#ffe433"/>
+    </g>
+    <text id="参加者に_聞いてみました" data-name="参加者に
+聞いてみました" transform="translate(494.303 7248.785)" fill="#6c3271" font-size="14" font-family="NotoSansJP-Black, Noto Sans JP" font-weight="800" letter-spacing="0.1em"><tspan x="-30.1" y="0">参加者</tspan><tspan y="0">に</tspan><tspan x="-52.99" y="18">聞</tspan><tspan y="18">いてみました</tspan></text>
+  </g>
+</svg>

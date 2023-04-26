@@ -1,0 +1,107 @@
+
+ul.interview_list {
+	padding: 0;
+	margin-bottom: 40px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul.interview_list li {
+	width: 23.5%;
+	margin-right: 2%;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+ul.interview_list li:nth-child(4n) {
+	margin-right: 0;
+}
+
+ul.interview_list li .iv_img {
+	width: 100%;
+	position: relative;
+}
+
+ul.interview_list li .iv_img img {
+	display: block;
+}
+
+ul.interview_list li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.iv_img_catch {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 92%;
+	padding: 40px 4% 10px;
+	z-index: 1;
+	background-image: url(img/ivbg16.png);
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+}
+
+/* 遏ｭ譛溷､ｧ蟄ｦ */
+.sl21 .iv_img_catch,
+.sl25 .iv_img_catch {
+	background-image: url(img/ivbg12.png);
+}
+
+/* 莠ｺ譁�ｭｦ驛ｨ */
+.sl7 .iv_img_catch,
+.sl27 .iv_img_catch ,
+.sl28 .iv_img_catch {
+	background-image: url(img/ivbg13.png);
+}
+
+/* 謨呵ご蟄ｦ驛ｨ */
+.sl12 .iv_img_catch,
+.sl32 .iv_img_catch {
+	background-image: url(img/ivbg14.png);
+}
+
+/* 邨悟霧蟄ｦ驛ｨ */
+.sl13 .iv_img_catch {
+	background-image: url(img/ivbg15.png);
+}
+
+/* 阮ｬ蟄ｦ驛ｨ */
+.sl17 .iv_img_catch {
+	background-image: url(img/ivbg16.png);
+}
+
+.iv_img_catch h3 {
+	color: #FFF;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.4em;
+	margin: 0;
+}
+
+.interview_job {
+	display: flex;
+}
+
+.interview_links {
+	background-color: #FFF;
+	padding: 5px;
+	margin-bottom: 60px;
+	margin-top: 40px;
+}
+
+@media (max-width: 930px) {
+
+	ul.interview_list li {
+	    width: 49%;
+	    margin-right: 2%;
+	}
+
+	ul.interview_list li:nth-child(2n) {
+	    margin-right: 0;
+	}

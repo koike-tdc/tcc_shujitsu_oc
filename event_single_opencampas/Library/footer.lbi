@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><div id="page_top">
+		<a href="#"><img src="../img/pagetop.png" width="60" alt="トップに戻る"></a>
+	</div>
+	
+	<footer>
+		<ul class="btn_list">
+			<li><a href="https://www.shujitsu.ac.jp/contact/" target="_blank">お問い合わせ</a></li>
+			<li><a href="https://www.shujitsu.ac.jp/admissions_site/document.html" target="_blank">資料請求</a></li>
+		</ul>
+		<ul class="banner_list">
+			<li><a href="https://www.shujitsu.ac.jp/admissions_site/event_single_opencampas.html" target="_blank"><img src="../img/banner02.png" alt="オープンキャンパス情報はこちら"></a></li>
+			<li><a href="https://www.shujitsu.ac.jp/admissions_site/" target="_blank"><img src="../img/banner01.png" alt="受験生応援サイトはこちら"></a></li>
+		</ul>
+		<p class="copyright">
+			Copyright (C) Shujitsu University All Rights Reserved.
+		</p>
+	</footer>
