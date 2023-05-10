@@ -38,7 +38,7 @@ table {
 }
 
 .gradation {
-	background: linear-gradient(45deg, rgba(197,231,245,1) 0%, rgba(244,255,232,1) 100%);
+	background: linear-gradient(45deg, rgba(187,231,251,1) 0%, rgba(252,253,220,1) 100%);
 }
 
 .flex {
@@ -624,8 +624,6 @@ ul.pickup_list {
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
-	justify-content:
-
 }
 
 ul.pickup_list li {
@@ -761,6 +759,7 @@ ul.review_list {
 	column-gap: 18px;
 	list-style: none;
 	padding: 0;
+  margin-bottom: 47px;
 }
 
 ul.review_list li {
@@ -782,7 +781,7 @@ ul.review_list li::before{
   width: 0;
   height: 0;
   left: 20px;
-  bottom: -15px;
+  bottom: -14px;
   border-top: 15px solid #895687;
   border-right: 15px solid transparent;
   border-left: 15px solid transparent;
@@ -1092,6 +1091,10 @@ table.cd_txt th {
 	margin-bottom: 50px;
 }
 
+.section_topics .section_title{
+  margin-bottom: 90px;
+}
+
 .secton_title .en {
 	font-size: 1.8rem;
 	display: block;
@@ -1111,6 +1114,17 @@ table.cd_txt th {
 
 .secton_title .en strong {
 	border-bottom: 3px double #EB5E24;
+}
+
+.section_sub_title{
+  font-size: 0.875rem;
+  line-height: 1;
+	font-weight: normal;
+	display: block;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 41px;
+  margin: 69px 0 55px;
 }
 
 .icon_title {
@@ -1252,7 +1266,7 @@ table.cd_txt th {
 ul.schedule_list {
 	list-style: none;
 	padding: 0;
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -1320,11 +1334,13 @@ ul.schedule_list ul.btn_list {
 }
 
 .sche_coming {
-	background-color: #eee;
-	padding: 15px;
+	background-color: #723578;
+  color: #fff;
+	padding:12px 15px;
 	border-radius: 300px;
 	text-align: center;
 	white-space: nowrap;
+  margin: 16px 1%;
 }
 
 ul.btn_list li.tour_btn a {
@@ -1332,6 +1348,104 @@ ul.btn_list li.tour_btn a {
 	flex-direction: column;
 }
 
+/* インスタグラム */
+.section_instagram{
+  padding-top: 120px;
+}
+
+.section_instagram .decoration{
+  font-size: 1.5rem;
+  color: #723578;
+  display: block;
+  font-weight: bold;
+  width: 412px;
+  margin: 0 auto 60px;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+}
+
+
+.section_instagram .decoration::before{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  background: #723578;
+  transform: rotate(-30deg);
+  bottom: 0;
+  left: -15px;
+}
+
+
+.section_instagram .decoration::after{
+  content: "";
+  display: block;
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  background: #723578;
+  transform: rotate(30deg);
+  bottom: 0;
+  right: -15px;
+}
+
+.section_instagram .section_instagram_inner{
+  padding: 215px 0;
+  background: url("../img/insta_oc_2022.jpg") no-repeat;
+  background-size: cover;
+}
+
+.section_instagram .section_instagram_inner .link_wrap{
+  background: rgba(114, 53, 120, 0.95);
+  width: 280px;
+  border-radius: 25px;
+  padding: 40px 30px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.section_instagram .section_instagram_inner .link_wrap img{
+  width: 45px;
+  height: auto;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+.section_instagram .section_instagram_inner .link_wrap h2{
+  font-size: 1.25rem;
+  color: #fff;
+  font-weight: bold;
+  margin:0 0 14px;
+  text-align: center;
+  line-height: 1;
+}
+
+.section_instagram .section_instagram_inner .link_wrap p{
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  margin: 0 0 26px;
+}
+
+.section_instagram .section_instagram_inner .link_wrap a{
+  display: block;
+  width: 205px;
+  background: #fff;
+  color: #723577;
+  border-radius: 100vh;
+  text-align: center;
+  padding: 19px 0;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0 auto;
+}
+  
 .tour_title {
 	margin-top: 0 !important;
 	color: #3FAED0;
@@ -2168,7 +2282,7 @@ ul.consult_list li a {
 .oc_talk {
 	position: absolute;
 	left: -110px;
-	top: 5px;
+	top: -1px;
 }
 
 .oc_daybox img {
@@ -2180,7 +2294,7 @@ ul.consult_list li a {
 	background-color: #6C3271;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	padding: 10px;
+	padding: 15px 10px;
 }
 
 .oc_ddbox {
@@ -2206,11 +2320,23 @@ ul.consult_list li a {
 	max-width: 240px;
 }
 
+.oc_ddlink .sche_coming{
+  margin: 14px auto 0;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #723577;
+  padding: 12px;
+  border-radius: 200px;
+  max-width: 240px;
+}
+
 .oc_att {
 	text-align: center;
 	font-size: 1rem;
 	margin-top: 4px;
 	white-space: nowrap;
+  font-weight: 500;
 }
 
 .slide .slider img {
@@ -2519,6 +2645,15 @@ ul.recommended_list li.full_recommended_w {
 	padding: 120px 0;
 }
 
+.graph_list{
+  margin-bottom: 45px;
+}
+
+.graph_container .graph_content{
+  margin: 0 auto;
+}
+
+
 .graph_content {
 	width: 48%;
 	padding: 10px 0;
@@ -2533,6 +2668,7 @@ ul.recommended_list li.full_recommended_w {
 
 .title_next {
 	text-align: center;
+  margin-bottom: 13px;
 }
 
 .hyblit_type {
@@ -2743,6 +2879,11 @@ dl.timedt dd {
 	.concept_txt {
 		width: 740px;
 	}
+  
+  .oc_ddlink .sche_coming{
+    font-size: 0.85rem;
+    padding: 5px;
+  }
 
 	.student01 {
 		position: absolute;
@@ -2944,7 +3085,12 @@ dl.timedt dd {
 		font-size: 0.75rem;
 		padding: 4px;
 	}
-
+  
+  .oc_ddlink .sche_coming{
+    line-height: 1.3em;
+		font-size: 0.75rem;
+		padding: 4px;
+  }
 
 }
 @media (max-width: 768px) {
@@ -2969,7 +3115,19 @@ dl.timedt dd {
 		top: 34%;
 		width: 44%;
 	}
-
+  
+  .title_next {
+    margin-bottom: 0;
+  }
+  
+  .sche_coming_wrap{
+    padding: 0 4%;
+  }
+  
+  .sche_coming_wrap .sche_coming{
+    margin: 16px 0;
+  }
+  
 	.title_oc_sp_r {
 		right: 4% !important;
 		left: auto !important;
@@ -3002,6 +3160,10 @@ dl.timedt dd {
 		padding-top: 140px;
 	}
 
+  .section_instagram {
+    padding-top: 40px;
+  }
+  
 	.section.section_qa {
 		background-size: 100% auto;
 		padding-top: 60px;
@@ -3485,7 +3647,7 @@ dl.timedt dd {
 	/* .inner {
 		overflow-x: hidden;
 	} */
-
+  
 	.section_concept {
 		background-image: none;
 	}
@@ -3505,6 +3667,104 @@ dl.timedt dd {
 		margin: 30px 0 -20px;
 		padding: 0;
 	}
+
+  .section_instagram .decoration {
+    font-size: 1.248rem;
+    width: 297px;
+    margin: 40px auto;
+    white-space: nowrap;
+    padding: 0;
+  }
+  
+  .section_instagram .decoration::before{
+    height: 30px;
+    bottom: -5px;
+  }
+  
+  .section_instagram .decoration::after{
+    height: 30px;
+    bottom: -5px;
+  }
+  
+  .section_instagram .section_instagram_inner{
+    padding: 210px 0;
+    background: url("../img/sp_insta_oc.jpg") no-repeat;
+    background-size: cover;
+  }
+  
+  .section_instagram .section_instagram_inner .link_wrap{
+    width: 200px;
+    padding: 24px 0 25px;
+  }
+  
+  .section_instagram .section_instagram_inner .link_wrap img{
+    width: 38px;
+    height: auto;
+    display: block;
+    margin: 0 auto 17px;
+  }
+
+  .section_instagram .section_instagram_inner .link_wrap h2{
+    font-size: 0.875rem;
+    color: #fff;
+    font-weight: 700;
+    margin:0 0 8px;
+    text-align: center;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .section_instagram .section_instagram_inner .link_wrap p{
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+    margin: 0 0 17px;
+  }
+
+  .section_instagram .section_instagram_inner .link_wrap a{
+    display: block;
+    width: 175px;
+    background: #fff;
+    color: #723577;
+    border-radius: 100vh;
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.813rem;
+    line-height: 1;
+    margin: 0 auto;
+  }
+
+  .section_topics h2{
+    margin-bottom: 25px;
+  }
+  
+  .section_review .secton_title{
+    margin-bottom: 33px;
+  }
+    
+  .section_review .secton_title .jp{
+    line-height: 1.43;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .section_review .section_sub_title {
+    margin: 40px 0 35px;
+    font-weight: 700;
+  }
+  
+  .section_review .graph_list {
+    margin-bottom: 0;
+  }
+  
+  .section_review .graph_container {
+    padding-bottom: 15px;
+  }
+  
 
 	ul.recommended_list li {
 		width: 100%;
@@ -3558,6 +3818,11 @@ dl.timedt dd {
 		padding: 12px;
 		font-size: 1rem;
 	}
+  
+  .oc_ddlink .sche_coming {
+		padding: 12px;
+		font-size: 1rem;
+	}
 
 	.oc_ddbox {
 		padding: 12px;
@@ -3565,6 +3830,7 @@ dl.timedt dd {
 
 	.oc_att {
 		margin-top: 5px;
+    font-weight: 700;
 	}
 
 	.end_anounce {
