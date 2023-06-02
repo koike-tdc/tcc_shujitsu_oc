@@ -2868,163 +2868,10 @@ dl.timedt dd {
 	color: #6C3271;
 }
 
-/****************************************/
-/* 2023年6月詳細ページ用 */
-/****************************************/
-.oc_2023_slide .oc_hybrid{
-  background: #3594b3;
-}
-
-.oc_2023 .wrap_for_decoration{
-  background-image: url(../img/bg_stripe_r.png);
-  background-size: 100% auto;
-  padding-top: 382px;
-  margin-top: -262px;
-  z-index: 1;
-  position: relative;
-}
-
-.oc_2023 #event{
-  padding: 60px;
-}
-
-.oc_2023 .section_schedule .schedule_list h3,
-.oc_2023 .section_schedule .schedule_list dl,
-.oc_2023 .section_schedule .schedule_list dt,
-.oc_2023 .section_schedule .schedule_list dd,
-.oc_2023 .section_schedule .schedule_list .sl_days,
-.oc_2023 .section_schedule .schedule_list .reserve_day {
-  color: #3594b3;
-}
-.oc_2023 .section_schedule .schedule_list h3,
-.oc_2023 .section_schedule .schedule_list dt{
-  border-color: #3594b3;
-}
-
-.oc_2023 .reserve_day p{
-  margin: 17px 0 11px;
-  line-height: 1;
-}
-
-.oc_2023 .section_schedule .reception_time{
-  color: #000;
-  font-size: 16px;
-}
-
-.oc_2023 .ao_exam ul.recommended_list {
-  margin: 60px auto 0;
-}
-
-.oc_2023 .ao_exam ul.recommended_list li.full_recommended_w {
-  border-radius: 28px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #f7f3eb;
-  box-sizing: border-box;
-  margin-bottom: 60px;
-  padding: 0;
-}
-
-.oc_2023 .ao_exam ul.recommended_list li.full_recommended_w .recommended_info{
-  margin: 60px 50px;
-  background: #fff;
-  box-shadow: 2.5px 4.33px 10.8px 1.2px rgba(51, 51, 51, 0.15);
-  border-radius: 15px;
-  padding: 29px 40px 27px;
-}
-
-.oc_2023 .ao_exam ul.recommended_list li.full_recommended_w .recommended_info p{
-  margin-bottom: 24px;
-}
-
-.oc_2023 .btn_purple_wrap{
-  margin-top: 42px;
-}
-.oc_2023 .btn_purple_wrap .finished_mark{
-  text-align: center;
-}
-
-.oc_2023 .recommended_info .btn_purple{
-  display: block;
-  text-align: center;
-  color: #FFF;
-  text-decoration: none;
-  background-color: #723577;
-  padding: 20px 0;
-  border-radius: 200px;
-  width: 300px;
-  margin: 0 auto 42px;
-  font-size: 18px;
-  
-}
-
-
-
-@media (max-width: 768px) {
-  .oc_2023 .section_concept{
-    display: none;
-  }
-  .oc_2023 .oc_hybrid{
-  background: #3594b3;
-  }
-  .oc_2023 .title_oc_day{
-    margin-bottom: 30px;
-  }
-  
-  .oc_2023 .wrap_for_decoration{
-    padding-top: 0 !important;
-    margin-top: 0 !important;
-    background: none;
-    z-index: 0;
-  }
-  
-  .oc_2023 .section_resflow h2{
-    color: #3594b3;
-  }
-  
-  .oc_2023 .section_resflow h3{
-    background: #3594b3;
-    border-bottom: 1px dotted #000;
-  }
-  
-  .oc_2023 .reserve_day p{
-    margin: 15px 0 5px;
-    line-height: 1;
-  }
-  
-  .oc_2023 .tour_title_txt{
-    font-size: 1rem !important;
-  }
-  
-  .oc_2023 .ao_exam ul.recommended_list li.full_recommended_w .recommended_info{
-    margin: 40px 13px;
-    padding: 35px 27px;
-  }
-  
-  .oc_2023 .btn_purple_wrap{
-    margin-top: 42px;
-  }
-  
-  .oc_2023 .btn_purple {
-    font-size: 0.8rem;
-    margin-top: 0;
-  }
-}
-
-
-/****************************************/
-/* ここまで2023年6月用 */
-/****************************************/
-
 @media (max-width: 1400px) {
 	.title_oc {
 		width: 35%;
 	}
-  .oc_2023 .wrap_for_decoration {
-     padding-top: 250px;
-     margin-top: -210px;
-   }
 }
 
 
@@ -4428,6 +4275,6 @@ dl.timedt dd {
 	dl.timedt dt {
 		font-size: 1rem;
 	}
-  
+
 
 }
