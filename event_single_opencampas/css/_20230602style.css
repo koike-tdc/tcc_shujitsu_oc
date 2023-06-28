@@ -1303,14 +1303,14 @@ ul.schedule_list.schedule_full ul.btn_list li {
 }
 
 ul.schedule_list.schedule_full ul.btn_list li a {
-  border-radius: 17px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 25px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	border-radius: 17px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 25px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul.schedule_list.schedule_full ul.btn_list li.tour_btn a {
@@ -1611,8 +1611,7 @@ ul.movie_category {
 
 ul.movie_category li {
 	width: 27%;
- /* 左右のマージンはMOVIE4つの時は4%、5つになったら3% */
-	margin: 0 4% 25px;
+	margin: 0 3% 25px;
 }
 
 .section_map {
@@ -2302,11 +2301,11 @@ ul.consult_list li a {
 	background-color: #FFF;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
-	padding: 36px 15px 15px;
+	padding: 15px;
 }
 
 .oc_ddlink {
-	margin-top: 18px;
+	margin-top: 10px;
 }
 
 .oc_ddlink a {
@@ -2960,6 +2959,8 @@ dl.timedt dd {
   
 }
 
+
+
 @media (max-width: 768px) {
   .oc_2023 .section_concept{
     display: none;
@@ -3014,123 +3015,6 @@ dl.timedt dd {
 
 /****************************************/
 /* ここまで2023年6月用 */
-/****************************************/
-
-/****************************************/
-/* 2023年7月詳細ページ用 */
-/****************************************/
-.oc_2023_7_slide .oc_hybrid{
-  background: #06a4b2;
-}
-
-.oc_2023 .wrap_for_decoration {
-  padding-top: 300px;
-  transform: scale(-1, 1);
-}
-
-.oc_2023 .wrap_for_decoration .section_resflow {
-  transform: scale(-1, 1);
-}
-
-.oc_2023_7_slide .oc_ddbox{
-  padding-top: 36px;
-}
-
-.oc_2023_7_slide .oc_dd {
-  margin-bottom: 15px;
-}
-
-.oc_2023_7 .section_schedule .schedule_list h3,
-.oc_2023_7 .section_schedule .schedule_list dl,
-.oc_2023_7 .section_schedule .schedule_list dt,
-.oc_2023_7 .section_schedule .schedule_list dd,
-.oc_2023_7 .section_schedule .schedule_list .sl_days,
-.oc_2023_7 .section_schedule .schedule_list .reserve_day {
-  color: #06a4b2;
-}
-
-.oc_2023_7 .section_schedule .schedule_list .reserve_day {
-  font-weight: bold; 
-}
-
-.oc_2023_7 .section_schedule .schedule_list h3,
-.oc_2023_7 .section_schedule .schedule_list dt {
-  border-color: #06a4b2;
-}
-
-
-.oc_2023_7 .resflow h3{
-  background: #3ca4b2;
-}
-
-.oc_2023_7 .schedule_list:nth-of-type(1) {
-  margin-bottom: 40px;
-}
-
-.oc_2023_7 .schedule_list_date:nth-of-type(1) {
-  margin-bottom: 40px;
-}
-
-.oc_2023_7 .tour_btn a{
-  background: #40aed0;
-}
-.oc_2023_7 .schedule_list_date .pdf_link{
-  margin: 25px 0 65px;
-}
-
-.oc_2023_7 .schedule_list_date .pdf_link .btn_w:nth-of-type(1) {
-  margin-bottom: 33px;
-}
-
-
-@media (max-width: 768px) {
-  .oc_2023_7 .title_oc_day{
-    margin-bottom: 65px;
-  }
-  
-  .oc_2023_7 .section_concept{
-    display: none;
-  }
-  .oc_2023_7 .oc_hybrid{
-    background: #06a4b2;
-  }
-  
-  .oc_2023_7 .oc_att {
-    margin-top: 10px;
-  }
-  
-  .oc_2023_7 .oc_ddbox{
-    padding-top: 25px;
-  }
-  
-  .oc_2023_7 .oc_dd {
-    margin-bottom: 14px;
-  }
-  .oc_2023_7 .resflow_list h3{
-    background: #3ca4b2;
-  }
-  
-  .oc_2023_7 .section_schedule .schedule_list .reserve_day {
-    font-weight: bold; 
-  }
-  
-  .oc_2023_7 .schedule_list_date .pdf_link{
-    margin: 18px 0 39px;
-  }
-  .oc_2023_7 .schedule_list_date .pdf_link .btn_w {
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .oc_2023_7 .schedule_list_date .pdf_link .btn_w:nth-of-type(1) {
-    margin-bottom: 20px;
-  }
-  
-}
-/****************************************/
-/* ここまで2023年7月用 */
 /****************************************/
 
 @media (max-width: 1400px) {
@@ -4515,8 +4399,6 @@ dl.timedt dd {
 
 	ul.movie_category li {
 		width: 44%;
-    /*PC版で4%になっているときにスマホ版でデザイン崩れが起きるのでスマホは左右マージン3%を指定*/
-    margin: 0 3% 25px;
 	}
 
 	.modal__content {

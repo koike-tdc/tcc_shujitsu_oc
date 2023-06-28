@@ -258,7 +258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<a class="btn_w" href="event_single_opencampas/img/event202306.pdf" target="_blank"><span class="icon_pdf"><img src="event_single_opencampas/img/icon_pdf.svg" alt="PDF" width="37"></span>イベントタイムスケジュールのPDFはこちら</a>
 				</div>
 
-				<ul class="schedule_list schedule_full fadein" id="1st_oc_reserve">
+				<ul class="schedule_list schedule_full fadein">
 					<li>
 						<h3>第1回オープンキャンパス</h3>
 						<div class="day_content flex">
