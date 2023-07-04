@@ -79,14 +79,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<div class="fixed_links fixed_links_one">
 	<div class="fixed_nav">
-			<a href="https://www.shujitsu.ac.jp/admissions_site/news/detail/4227" target="_blank">オープンキャンパス当日の様子はこちら</a>
+			<a href="#event" target="_self">予約はこちら</a>
 		</div>
 	</div>
 
 	<header>
 		<div class="header">
 			<div class="head_logo">
-				<a href="event_single_opencampas.html">
+				<a href="event_single_opencampas2023_6.php">
 					<div class="logo_w">
 						<img src="event_single_opencampas/img/logo2023.png" alt="就実大学オンラインオープンキャンパス2023" width="300">
 					</div>
@@ -120,10 +120,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		<div class="slide oc_2023_slide">
 			<ul class="slider pc">
-				<li><img src="event_single_opencampas/img/slide2023_06.jpg?date=20230629" alt="オープンキャンパス" height="1290" width="1800"></li>
+				<li><img src="event_single_opencampas/img/slide2023_06.jpg" alt="オープンキャンパス" height="1290" width="1800"></li>
 			</ul>
 			<ul class="slider sp">
-				<li><img src="event_single_opencampas/img/slide2023_06_s.jpg?date=20230629" alt="オープンキャンパス"></li>
+				<li><img src="event_single_opencampas/img/slide2023_06_s.jpg" alt="オープンキャンパス"></li>
 			</ul>
 			<div class="title_oc title_oc_sp_r">
 				<div class="title_oc_main">
@@ -152,7 +152,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</div>
 						</div>
 					</div>
-					<div class="oc_att text_white">
+					<div class="oc_att">
 						社会情勢により開催方法を変更する場合があります。<br>
 						開催前に必ずホームページをご確認ください。
 					</div>
@@ -188,25 +188,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				開催前に必ずホームページをご確認ください。
 			</div>
 		</div>
-    
-		<div class="section section_concept bg_l">
-      <div class="oc_student01 fadein fade_right">
-        <img src="event_single_opencampas/img/oc_student01_2.png" alt="みなさん、ぜひご参加ください！" width="340">
-      </div>
-      <div class="oc_student02 fadein fade_left">
-        <img src="event_single_opencampas/img/oc_student02_2.png" alt="" width="230">
-      </div>
-      <div class="wrap">
-        <div class="end_anounce">
-          <p>6月のオープンキャンパスは<span class="ib">終了しました。</span>
-          <div class="btn_w_list">
-            <a class="btn_w" href="https://www.shujitsu.ac.jp/admissions_site/news/detail/4227" target="_blank">当日の様子はこちら <i class="fas fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-      </div>
-		</div>
 
-		<div class="">
+		<div class="wrap_for_decoration">
 			<div class="section section_resflow gradation">
 				<div class="wrap">
 					<ul class="recommended_list">
@@ -221,7 +204,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<h3>Step<strong>1</strong></h3>
 										<h4>オープンキャンパスHPにアクセスしてください</h4>
 										<div class="cv_img">
-											<img src="event_single_opencampas/img/resflow01_9.jpg?date=20230629" width="280" style="border: 1px solid #ccc;">
+											<img src="event_single_opencampas/img/resflow01_9.jpg" width="280" style="border: 1px solid #ccc;">
 										</div>
 									</li>
 									<li>

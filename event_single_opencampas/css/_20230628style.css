@@ -1146,10 +1146,6 @@ table.cd_txt th {
 	position: relative;
 }
 
-.section_concept.bg_l{
-  background-image: url("../img/bg_stripe_l.png");
-}
-
 .section_concept_top {
 	padding-top: 200px;
 }
@@ -2307,7 +2303,6 @@ ul.consult_list li a {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	padding: 36px 15px 15px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .oc_ddlink {
@@ -2343,10 +2338,6 @@ ul.consult_list li a {
 	margin-top: 4px;
 	white-space: nowrap;
   font-weight: 500;
-}
-
-.text_white{
-  color: #fff;
 }
 
 .slide .slider img {
@@ -2970,6 +2961,9 @@ dl.timedt dd {
 }
 
 @media (max-width: 768px) {
+  .oc_2023 .section_concept{
+    display: none;
+  }
   .oc_2023 .oc_hybrid{
   background: #3594b3;
   }
